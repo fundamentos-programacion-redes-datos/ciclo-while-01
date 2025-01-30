@@ -1,0 +1,22 @@
+// Genere una solución que permita presentar la suma y 
+// el promedio de los números del 1 al 10.
+
+1.  Inicio
+2.  // Declaración de variables
+3.  numero, i[1-10] <-- 1   // Contador: controla el número hasta donde debe ejecutarse el bucle
+4.  suma, i[0-n] <-- 0      // Acumulador: almacena la suma total de los números
+5.  promedio, d[0-n]        // Variable para calcular el promedio
+6.  
+7.  // Proceso para calcular la suma usando un ciclo Mientras
+8.  Mientras numero <= 10 entonces   // El bucle se ejecuta mientras numero sea menor o igual a 10
+9.      suma <-- suma + numero        // Se acumula el valor actual en la variable suma, con el valor de número
+10.     numero <-- numero + 1         // Contador: incrementa en 1 para avanzar al siguiente número
+11. Fin Mientras                      // Termina el bucle cuando numero > 10
+12.  
+13. // Calcular el promedio
+14. promedio <-- suma / 10             // Se divide la suma total entre 10
+15.  
+16. // Presentar los resultados
+17. Escribir "La suma de los números del 1 al 10 es: " + suma
+18. Escribir "El promedio de los números del 1 al 10 es: " + promedio
+19. Fin
